@@ -1,0 +1,38 @@
+{
+  "name": "frida",
+  "version": "0.0.1",
+  "description": "Frida is a LISP dialect that runs on top of Node.js",
+  "keywords": [
+    "frida",
+    "compiler",
+    "repl"
+  ],
+  "homepage": "https://github.com/haskellcamargo/frida",
+  "bugs": "https://github.com/haskellcamargo/frida/issues",
+  "author": "Marcelo Camargo",
+  "main": "lib",
+  "bin": {
+    "frida": "src/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/haskellcamargo/frida.git"
+  },
+  "devDependencies": {
+    "livescript": "latest",
+    "coffee-script": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "prelude-ls": "latest"
+  },
+  "dependencies": {
+    "optimist": "0.6.x",
+    "prelude-ls": "latest"
+  },
+  "engines": {
+    "node": ">=0.1.0"
+  },
+  "scripts": {
+    "test": "cake test"
+  }
+}

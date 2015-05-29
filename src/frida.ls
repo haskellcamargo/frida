@@ -135,4 +135,4 @@ exports.interpret = interpret
 exports.parse = parse
 exports.tokenize = tokenize
 exports.Context = Context
-exports.Variable = Var
+exports.Variable = Variable

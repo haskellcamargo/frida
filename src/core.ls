@@ -1,4 +1,4 @@
-require! frida
+frida = require "./frida"
 
 fns =
   lambda: (input, context) ->
