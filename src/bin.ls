@@ -2,7 +2,6 @@
 
 require! <[ fs repl ../compiler/frida ../compiler/syn ]>
 
-
 args = require \optimist
   .usage "Usage: $0 -vlp [filename]"
   .describe "p" "prints parsed code and exits"
